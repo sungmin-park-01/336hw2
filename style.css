@@ -1,0 +1,82 @@
+body{
+    background-image: url('img/bg.png');
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+}
+
+#ruleBtn{
+    padding: 2px 8px;
+    font-size: 16px;
+    box-shadow: inset;
+    font-weight: bold;
+}
+
+#ruleBox{
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    width: 380px;
+    min-height: 200px;
+}
+
+#ol {
+    /* padding-left: 20px; */
+    text-align: left;
+    list-style-position: inside;
+    background-color: rgb(154, 181, 205);
+    line-height: 1.1;
+    letter-spacing: 0.8px;
+    padding: 6px 15px;
+    border-radius: 8px;
+    display: none;
+}
+
+#point{
+    background-color: rgba(255, 255, 255, 0.85);
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 8px;
+}
+
+#rollBnt, #resetBnt{
+    padding: 6px 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#dice{
+    width: 250px;
+    height: 250px;
+}
+
+#userChoiceBox {
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    transform: translateX(-50%);
+    
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+#resultBox{
+    position: absolute;
+    left: 50%;
+    bottom: 400px;
+    transform: translateX(-50%);
+}
+
+#message{
+    background-color: rgba(255, 255, 255, 0.85);
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 8px;
+    display: none;
+    text-align: center;
+    font-weight: bold;
+}

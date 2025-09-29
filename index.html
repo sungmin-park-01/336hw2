@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/underscore@1.13.7/underscore-umd-min.js"></script>
+    <link href="style.css" rel="stylesheet">
+
+    <title>Dice Game</title>
+</head>
+<body>
+    <h1>🎲 Dice Game odd or even? </h1>
+    <div id="point">Point: 100</div>
+
+    <div id="ruleBox">
+    <button id="ruleBtn">Rule</button><span id="span">Duble click for first time</span>
+        <ol id="ol">
+            <li>Start with points 100.</li>
+            <li>Place your points as a bet.</li>
+            <li>Choose either Odd or Even.</li>
+            <li>If you win, you earn twice the points you bet.</li>
+            <li>If you lose, you lose the points you wagered.</li>
+        </ol>
+    </div>
+
+    <div id="score"></div>
+
+    <br>
+
+    <div id="resultBox">
+        <div id="diceImg"></div>
+        <div id="message"></div>
+    </div>
+
+    <br>
+    
+    <div id="userChoiceBox">
+        <div id="userChoice">
+            <div id="bet">
+                <label for="betPoint">Betting Points:</label>
+                <input type="text" id="betPoint" placeholder="Enter your bet">
+            </div>
+
+            <div id="choice">
+                <label><input type="radio" name="userChoice" value="odd"> Odd</label>
+                <label><input type="radio" name="userChoice" value="even"> Even</label>
+            </div>
+        </div>
+        
+        <div id="btn">
+            <button id="rollBnt">Roll</button>
+            <button id="resetBnt">Reset</button>
+        </div>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
